@@ -18,6 +18,7 @@ public class Backend {
 
     private static final Logger LOGGER = Logger.getLogger(Backend.class.getName());
     
+    
     @Inject
     @Claim(standard = Claims.email)
     String email;
